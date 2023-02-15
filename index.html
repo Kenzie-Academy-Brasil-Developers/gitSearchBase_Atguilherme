@@ -14,8 +14,41 @@
     />
 
     <title>Git Search</title>
+
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+
   </head>
   <body>
+
+    <div class="general__container">
+
+      <main class="main__container">
+      
+        <section class="section__left">
+          <h1 class="left__title">Git Search</h1>
+          <p class="left_paragraph">Encontre e se conecte com profissionais de forma rápida e fácil</p>
+        </section>
+      
+        <section class="section__right">
+          <div class="right__container">
+            
+            <h2 class="right__title">Procurar por um usuário</h2>
+            <form class="search__user">
+
+              <label class="search__label" for="">Usuário github</label>
+              <input class="search__input" type="text" placeholder="Digite um usuário do github aqui...">
+              <button class="search__btn">Ver perfil do github</button>
+              
+            </form>
+
+          </div>
+        </section>
+      
+      </main>
+
+    </div>  <!-- fim do general container -->
 
     <script type="module" src="./src/scripts/index.js"></script>
   </body>

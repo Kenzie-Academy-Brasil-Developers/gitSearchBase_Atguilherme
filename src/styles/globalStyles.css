@@ -10,3 +10,14 @@
   --color-alert: #c22554;
   --font-primary: "Inter", sans-serif;
 }
+
+body{
+
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  font-family: var(--font-primary);
+  line-height: 150%;
+  background-color: var(--color-grey-2);
+
+}
